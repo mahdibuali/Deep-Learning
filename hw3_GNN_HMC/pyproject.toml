@@ -1,0 +1,27 @@
+# Build package.
+[build-system]
+requires = ["setuptools>=58.2.0", "wheel>=0.37.0"]
+build-backend = "setuptools.build_meta"
+
+# Check static typing.
+[tool.mypy]
+plugins = "numpy.typing.mypy_plugin"
+check_untyped_defs = false         # Default `--strict` mode. Loose it for convenience.
+disallow_any_expr = false          # Extremely strict mode.
+disallow_any_explicit = false      # Extremely strict mode.
+disallow_any_generics = true       # Default `--strict` mode.
+disallow_incomplete_defs = false   # Default `--strict` mode. Loose it for convenience.
+disallow_subclassing_any = true    # Default `--strict` mode.
+disallow_untyped_calls = false     # Default `--strict` mode. Loose it for convenience.
+disallow_untyped_decorators = true # Default `--strict` mode.
+disallow_untyped_defs = false      # Default `--strict` mode. Loose it for convenience.
+no_implicit_optional = true        # Default `--strict` mode.
+no_implicit_reexport = false       # Default `--strict` mode. Loose it for convenience.
+show_error_codes = true            # Richer report.
+show_error_context = true          # Richer report.
+strict_equality = true             # Default `--strict` mode.
+warn_redundant_casts = true        # Default `--strict` mode.
+warn_return_any = true             # Default `--strict` mode.
+warn_unreachable = true            # More strict mode.
+warn_unused_configs = true         # Default `--strict` mode.
+warn_unused_ignores = true         # Default `--strict` mode.
