@@ -1,0 +1,1123 @@
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.nn
+[INFO][root] shape = [784, 300, 100, 10]
+[INFO][root] self.model = Sequential(
+  (W_0): Linear(in_features=784, out_features=300, bias=True)
+  (a_0): ReLU()
+  (W_1): Linear(in_features=300, out_features=100, bias=True)
+  (a_1): ReLU()
+  (W_2): Linear(in_features=100, out_features=10, bias=True)
+)
+[INFO][root] batch_size=60000, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] loss = 11.98520565032959
+[INFO][root] Accuracy(train) = 0.10035
+[INFO][root] Accuracy(test) = 0.0987
+[INFO][root] ---------- EPOCH 1 ----------
+[INFO][root] loss = 10.113842010498047
+[INFO][root] Accuracy(train) = 0.10111666666666666
+[INFO][root] Accuracy(test) = 0.0988
+[INFO][root] ---------- EPOCH 2 ----------
+[INFO][root] loss = 8.955246925354004
+[INFO][root] Accuracy(train) = 0.1036
+[INFO][root] Accuracy(test) = 0.1042
+[INFO][root] ---------- EPOCH 3 ----------
+[INFO][root] loss = 8.181157112121582
+[INFO][root] Accuracy(train) = 0.10876666666666666
+[INFO][root] Accuracy(test) = 0.1083
+[INFO][root] ---------- EPOCH 4 ----------
+[INFO][root] loss = 7.617028713226318
+[INFO][root] Accuracy(train) = 0.11501666666666667
+[INFO][root] Accuracy(test) = 0.1149
+[INFO][root] ---------- EPOCH 5 ----------
+[INFO][root] loss = 7.180543899536133
+[INFO][root] Accuracy(train) = 0.12211666666666667
+[INFO][root] Accuracy(test) = 0.1211
+[INFO][root] ---------- EPOCH 6 ----------
+[INFO][root] loss = 6.827840328216553
+[INFO][root] Accuracy(train) = 0.12905
+[INFO][root] Accuracy(test) = 0.127
+[INFO][root] ---------- EPOCH 7 ----------
+[INFO][root] loss = 6.532538890838623
+[INFO][root] Accuracy(train) = 0.13576666666666667
+[INFO][root] Accuracy(test) = 0.1349
+[INFO][root] ---------- EPOCH 8 ----------
+[INFO][root] loss = 6.2783050537109375
+[INFO][root] Accuracy(train) = 0.14238333333333333
+[INFO][root] Accuracy(test) = 0.1425
+[INFO][root] ---------- EPOCH 9 ----------
+[INFO][root] loss = 6.054421901702881
+[INFO][root] Accuracy(train) = 0.14805
+[INFO][root] Accuracy(test) = 0.15
+[INFO][root] ---------- EPOCH 10 ----------
+[INFO][root] loss = 5.8537492752075195
+[INFO][root] Accuracy(train) = 0.15388333333333334
+[INFO][root] Accuracy(test) = 0.1557
+[INFO][root] ---------- EPOCH 11 ----------
+[INFO][root] loss = 5.670980930328369
+[INFO][root] Accuracy(train) = 0.1604
+[INFO][root] Accuracy(test) = 0.1635
+[INFO][root] ---------- EPOCH 12 ----------
+[INFO][root] loss = 5.502368927001953
+[INFO][root] Accuracy(train) = 0.16658333333333333
+[INFO][root] Accuracy(test) = 0.1685
+[INFO][root] ---------- EPOCH 13 ----------
+[INFO][root] loss = 5.345313549041748
+[INFO][root] Accuracy(train) = 0.17266666666666666
+[INFO][root] Accuracy(test) = 0.1744
+[INFO][root] ---------- EPOCH 14 ----------
+[INFO][root] loss = 5.1978068351745605
+[INFO][root] Accuracy(train) = 0.1787
+[INFO][root] Accuracy(test) = 0.1802
+[INFO][root] ---------- EPOCH 15 ----------
+[INFO][root] loss = 5.058433532714844
+[INFO][root] Accuracy(train) = 0.18431666666666666
+[INFO][root] Accuracy(test) = 0.1872
+[INFO][root] ---------- EPOCH 16 ----------
+[INFO][root] loss = 4.926205158233643
+[INFO][root] Accuracy(train) = 0.19106666666666666
+[INFO][root] Accuracy(test) = 0.1924
+[INFO][root] ---------- EPOCH 17 ----------
+[INFO][root] loss = 4.800419807434082
+[INFO][root] Accuracy(train) = 0.19768333333333332
+[INFO][root] Accuracy(test) = 0.1972
+[INFO][root] ---------- EPOCH 18 ----------
+[INFO][root] loss = 4.680628776550293
+[INFO][root] Accuracy(train) = 0.20348333333333332
+[INFO][root] Accuracy(test) = 0.2028
+[INFO][root] ---------- EPOCH 19 ----------
+[INFO][root] loss = 4.566361904144287
+[INFO][root] Accuracy(train) = 0.20971666666666666
+[INFO][root] Accuracy(test) = 0.2086
+[INFO][root] ---------- EPOCH 20 ----------
+[INFO][root] loss = 4.457283020019531
+[INFO][root] Accuracy(train) = 0.21618333333333334
+[INFO][root] Accuracy(test) = 0.2161
+[INFO][root] ---------- EPOCH 21 ----------
+[INFO][root] loss = 4.353010654449463
+[INFO][root] Accuracy(train) = 0.22208333333333333
+[INFO][root] Accuracy(test) = 0.2214
+[INFO][root] ---------- EPOCH 22 ----------
+[INFO][root] loss = 4.253232479095459
+[INFO][root] Accuracy(train) = 0.22828333333333334
+[INFO][root] Accuracy(test) = 0.228
+[INFO][root] ---------- EPOCH 23 ----------
+[INFO][root] loss = 4.1578288078308105
+[INFO][root] Accuracy(train) = 0.23438333333333333
+[INFO][root] Accuracy(test) = 0.2338
+[INFO][root] ---------- EPOCH 24 ----------
+[INFO][root] loss = 4.066598892211914
+[INFO][root] Accuracy(train) = 0.24098333333333333
+[INFO][root] Accuracy(test) = 0.2415
+[INFO][root] ---------- EPOCH 25 ----------
+[INFO][root] loss = 3.979238510131836
+[INFO][root] Accuracy(train) = 0.24765
+[INFO][root] Accuracy(test) = 0.2494
+[INFO][root] ---------- EPOCH 26 ----------
+[INFO][root] loss = 3.895561933517456
+[INFO][root] Accuracy(train) = 0.25401666666666667
+[INFO][root] Accuracy(test) = 0.2546
+[INFO][root] ---------- EPOCH 27 ----------
+[INFO][root] loss = 3.8154191970825195
+[INFO][root] Accuracy(train) = 0.2604666666666667
+[INFO][root] Accuracy(test) = 0.2598
+[INFO][root] ---------- EPOCH 28 ----------
+[INFO][root] loss = 3.7386245727539062
+[INFO][root] Accuracy(train) = 0.2667833333333333
+[INFO][root] Accuracy(test) = 0.2675
+[INFO][root] ---------- EPOCH 29 ----------
+[INFO][root] loss = 3.665008783340454
+[INFO][root] Accuracy(train) = 0.27336666666666665
+[INFO][root] Accuracy(test) = 0.2732
+[INFO][root] ---------- EPOCH 30 ----------
+[INFO][root] loss = 3.594358444213867
+[INFO][root] Accuracy(train) = 0.28053333333333336
+[INFO][root] Accuracy(test) = 0.2805
+[INFO][root] ---------- EPOCH 31 ----------
+[INFO][root] loss = 3.526603937149048
+[INFO][root] Accuracy(train) = 0.2875666666666667
+[INFO][root] Accuracy(test) = 0.2866
+[INFO][root] ---------- EPOCH 32 ----------
+[INFO][root] loss = 3.461580514907837
+[INFO][root] Accuracy(train) = 0.29441666666666666
+[INFO][root] Accuracy(test) = 0.2923
+[INFO][root] ---------- EPOCH 33 ----------
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.nn
+[INFO][root] shape = [784, 300, 100, 10]
+[INFO][root] self.model = Sequential(
+  (W_0): Linear(in_features=784, out_features=300, bias=True)
+  (a_0): ReLU()
+  (W_1): Linear(in_features=300, out_features=100, bias=True)
+  (a_1): ReLU()
+  (W_2): Linear(in_features=100, out_features=10, bias=True)
+)
+[INFO][root] batch_size=128, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] loss = 19.78813362121582
+[INFO][root] Accuracy(train) = 0.11715
+[INFO][root] Accuracy(test) = 0.1142
+[INFO][root] loss = 11.661398887634277
+[INFO][root] Accuracy(train) = 0.13305
+[INFO][root] Accuracy(test) = 0.1297
+[INFO][root] loss = 9.918039321899414
+[INFO][root] Accuracy(train) = 0.14278333333333335
+[INFO][root] Accuracy(test) = 0.1393
+[INFO][root] loss = 10.820965766906738
+[INFO][root] Accuracy(train) = 0.14971666666666666
+[INFO][root] Accuracy(test) = 0.1458
+[INFO][root] loss = 8.882781028747559
+[INFO][root] Accuracy(train) = 0.15386666666666668
+[INFO][root] Accuracy(test) = 0.1519
+[INFO][root] loss = 9.144613265991211
+[INFO][root] Accuracy(train) = 0.15831666666666666
+[INFO][root] Accuracy(test) = 0.1572
+[INFO][root] loss = 8.65511703491211
+[INFO][root] Accuracy(train) = 0.16116666666666668
+[INFO][root] Accuracy(test) = 0.1613
+[INFO][root] loss = 7.865623950958252
+[INFO][root] Accuracy(train) = 0.16578333333333334
+[INFO][root] Accuracy(test) = 0.1672
+[INFO][root] loss = 7.248147010803223
+[INFO][root] Accuracy(train) = 0.16965
+[INFO][root] Accuracy(test) = 0.1695
+[INFO][root] loss = 7.021782875061035
+[INFO][root] Accuracy(train) = 0.17733333333333334
+[INFO][root] Accuracy(test) = 0.1781
+[INFO][root] loss = 7.694370269775391
+[INFO][root] Accuracy(train) = 0.18211666666666668
+[INFO][root] Accuracy(test) = 0.1815
+[INFO][root] loss = 6.648752212524414
+[INFO][root] Accuracy(train) = 0.18675
+[INFO][root] Accuracy(test) = 0.1872
+[INFO][root] loss = 6.466597080230713
+[INFO][root] Accuracy(train) = 0.19086666666666666
+[INFO][root] Accuracy(test) = 0.191
+[INFO][root] loss = 5.745126247406006
+[INFO][root] Accuracy(train) = 0.19798333333333334
+[INFO][root] Accuracy(test) = 0.2
+[INFO][root] loss = 6.150796890258789
+[INFO][root] Accuracy(train) = 0.20598333333333332
+[INFO][root] Accuracy(test) = 0.2081
+[INFO][root] loss = 6.130600929260254
+[INFO][root] Accuracy(train) = 0.21261666666666668
+[INFO][root] Accuracy(test) = 0.2149
+[INFO][root] loss = 5.195295333862305
+[INFO][root] Accuracy(train) = 0.22496666666666668
+[INFO][root] Accuracy(test) = 0.2253
+[INFO][root] loss = 5.500098705291748
+[INFO][root] Accuracy(train) = 0.23016666666666666
+[INFO][root] Accuracy(test) = 0.2336
+[INFO][root] loss = 5.788944721221924
+[INFO][root] Accuracy(train) = 0.2401
+[INFO][root] Accuracy(test) = 0.244
+[INFO][root] loss = 4.963129043579102
+[INFO][root] Accuracy(train) = 0.24771666666666667
+[INFO][root] Accuracy(test) = 0.2524
+[INFO][root] loss = 5.4733428955078125
+[INFO][root] Accuracy(train) = 0.2539166666666667
+[INFO][root] Accuracy(test) = 0.2596
+[INFO][root] loss = 4.63538122177124
+[INFO][root] Accuracy(train) = 0.2616833333333333
+[INFO][root] Accuracy(test) = 0.2684
+[INFO][root] loss = 4.286213397979736
+[INFO][root] Accuracy(train) = 0.26736666666666664
+[INFO][root] Accuracy(test) = 0.2748
+[INFO][root] loss = 4.514693260192871
+[INFO][root] Accuracy(train) = 0.27245
+[INFO][root] Accuracy(test) = 0.2802
+[INFO][root] loss = 3.9320619106292725
+[INFO][root] Accuracy(train) = 0.27785
+[INFO][root] Accuracy(test) = 0.2865
+[INFO][root] loss = 3.7124457359313965
+[INFO][root] Accuracy(train) = 0.28331666666666666
+[INFO][root] Accuracy(test) = 0.2909
+[INFO][root] loss = 4.661062240600586
+[INFO][root] Accuracy(train) = 0.28983333333333333
+[INFO][root] Accuracy(test) = 0.2988
+[INFO][root] loss = 3.8767406940460205
+[INFO][root] Accuracy(train) = 0.2964833333333333
+[INFO][root] Accuracy(test) = 0.3054
+[INFO][root] loss = 3.751575231552124
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=60000, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=60000, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=60000, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=60000, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=60000, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.nn
+[INFO][root] shape = [784, 300, 100, 10]
+[INFO][root] self.model = Sequential(
+  (W_0): Linear(in_features=784, out_features=300, bias=True)
+  (a_0): ReLU()
+  (W_1): Linear(in_features=300, out_features=100, bias=True)
+  (a_1): ReLU()
+  (W_2): Linear(in_features=100, out_features=10, bias=True)
+)
+[INFO][root] batch_size=60000, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] loss = 16.169618606567383
+[INFO][root] Accuracy(train) = 0.07315
+[INFO][root] Accuracy(test) = 0.0775
+[INFO][root] ---------- EPOCH 1 ----------
+[INFO][root] loss = 13.98057746887207
+[INFO][root] Accuracy(train) = 0.08001666666666667
+[INFO][root] Accuracy(test) = 0.0865
+[INFO][root] ---------- EPOCH 2 ----------
+[INFO][root] loss = 12.20278549194336
+[INFO][root] Accuracy(train) = 0.08746666666666666
+[INFO][root] Accuracy(test) = 0.0917
+[INFO][root] ---------- EPOCH 3 ----------
+[INFO][root] loss = 10.68906021118164
+[INFO][root] Accuracy(train) = 0.09471666666666667
+[INFO][root] Accuracy(test) = 0.0978
+[INFO][root] ---------- EPOCH 4 ----------
+[INFO][root] loss = 9.446913719177246
+[INFO][root] Accuracy(train) = 0.10148333333333333
+[INFO][root] Accuracy(test) = 0.1032
+[INFO][root] ---------- EPOCH 5 ----------
+[INFO][root] loss = 8.484564781188965
+[INFO][root] Accuracy(train) = 0.10823333333333333
+[INFO][root] Accuracy(test) = 0.1105
+[INFO][root] ---------- EPOCH 6 ----------
+[INFO][root] loss = 7.7652387619018555
+[INFO][root] Accuracy(train) = 0.11421666666666666
+[INFO][root] Accuracy(test) = 0.1189
+[INFO][root] ---------- EPOCH 7 ----------
+[INFO][root] loss = 7.228237628936768
+[INFO][root] Accuracy(train) = 0.11978333333333334
+[INFO][root] Accuracy(test) = 0.1251
+[INFO][root] ---------- EPOCH 8 ----------
+[INFO][root] loss = 6.8171515464782715
+[INFO][root] Accuracy(train) = 0.12635
+[INFO][root] Accuracy(test) = 0.1305
+[INFO][root] ---------- EPOCH 9 ----------
+[INFO][root] loss = 6.489366054534912
+[INFO][root] Accuracy(train) = 0.13301666666666667
+[INFO][root] Accuracy(test) = 0.1387
+[INFO][root] ---------- EPOCH 10 ----------
+[INFO][root] loss = 6.216277599334717
+[INFO][root] Accuracy(train) = 0.14091666666666666
+[INFO][root] Accuracy(test) = 0.1446
+[INFO][root] ---------- EPOCH 11 ----------
+[INFO][root] loss = 5.979700088500977
+[INFO][root] Accuracy(train) = 0.14781666666666668
+[INFO][root] Accuracy(test) = 0.1507
+[INFO][root] ---------- EPOCH 12 ----------
+[INFO][root] loss = 5.768545627593994
+[INFO][root] Accuracy(train) = 0.1556
+[INFO][root] Accuracy(test) = 0.1594
+[INFO][root] ---------- EPOCH 13 ----------
+[INFO][root] loss = 5.57570743560791
+[INFO][root] Accuracy(train) = 0.16346666666666668
+[INFO][root] Accuracy(test) = 0.1667
+[INFO][root] ---------- EPOCH 14 ----------
+[INFO][root] loss = 5.39699125289917
+[INFO][root] Accuracy(train) = 0.17205
+[INFO][root] Accuracy(test) = 0.1748
+[INFO][root] ---------- EPOCH 15 ----------
+[INFO][root] loss = 5.22991943359375
+[INFO][root] Accuracy(train) = 0.1798
+[INFO][root] Accuracy(test) = 0.183
+[INFO][root] ---------- EPOCH 16 ----------
+[INFO][root] loss = 5.072841167449951
+[INFO][root] Accuracy(train) = 0.1883
+[INFO][root] Accuracy(test) = 0.1916
+[INFO][root] ---------- EPOCH 17 ----------
+[INFO][root] loss = 4.924559593200684
+[INFO][root] Accuracy(train) = 0.19723333333333334
+[INFO][root] Accuracy(test) = 0.2012
+[INFO][root] ---------- EPOCH 18 ----------
+[INFO][root] loss = 4.784087657928467
+[INFO][root] Accuracy(train) = 0.20578333333333335
+[INFO][root] Accuracy(test) = 0.2107
+[INFO][root] ---------- EPOCH 19 ----------
+[INFO][root] loss = 4.650918960571289
+[INFO][root] Accuracy(train) = 0.21386666666666668
+[INFO][root] Accuracy(test) = 0.2193
+[INFO][root] ---------- EPOCH 20 ----------
+[INFO][root] loss = 4.524445533752441
+[INFO][root] Accuracy(train) = 0.22258333333333333
+[INFO][root] Accuracy(test) = 0.2276
+[INFO][root] ---------- EPOCH 21 ----------
+[INFO][root] loss = 4.40421724319458
+[INFO][root] Accuracy(train) = 0.23026666666666668
+[INFO][root] Accuracy(test) = 0.2382
+[INFO][root] ---------- EPOCH 22 ----------
+[INFO][root] loss = 4.2898478507995605
+[INFO][root] Accuracy(train) = 0.23926666666666666
+[INFO][root] Accuracy(test) = 0.2465
+[INFO][root] ---------- EPOCH 23 ----------
+[INFO][root] loss = 4.181007385253906
+[INFO][root] Accuracy(train) = 0.24823333333333333
+[INFO][root] Accuracy(test) = 0.2574
+[INFO][root] ---------- EPOCH 24 ----------
+[INFO][root] loss = 4.077380180358887
+[INFO][root] Accuracy(train) = 0.25676666666666664
+[INFO][root] Accuracy(test) = 0.2664
+[INFO][root] ---------- EPOCH 25 ----------
+[INFO][root] loss = 3.978647470474243
+[INFO][root] Accuracy(train) = 0.2652333333333333
+[INFO][root] Accuracy(test) = 0.2761
+[INFO][root] ---------- EPOCH 26 ----------
+[INFO][root] loss = 3.8845646381378174
+[INFO][root] Accuracy(train) = 0.27373333333333333
+[INFO][root] Accuracy(test) = 0.2848
+[INFO][root] ---------- EPOCH 27 ----------
+[INFO][root] loss = 3.7948780059814453
+[INFO][root] Accuracy(train) = 0.282
+[INFO][root] Accuracy(test) = 0.2957
+[INFO][root] ---------- EPOCH 28 ----------
+[INFO][root] loss = 3.709299325942993
+[INFO][root] Accuracy(train) = 0.29051666666666665
+[INFO][root] Accuracy(test) = 0.3059
+[INFO][root] ---------- EPOCH 29 ----------
+[INFO][root] loss = 3.6275689601898193
+[INFO][root] Accuracy(train) = 0.2991
+[INFO][root] Accuracy(test) = 0.3147
+[INFO][root] ---------- EPOCH 30 ----------
+[INFO][root] loss = 3.5495169162750244
+[INFO][root] Accuracy(train) = 0.3070333333333333
+[INFO][root] Accuracy(test) = 0.324
+[INFO][root] ---------- EPOCH 31 ----------
+[INFO][root] loss = 3.4749536514282227
+[INFO][root] Accuracy(train) = 0.3148
+[INFO][root] Accuracy(test) = 0.3335
+[INFO][root] ---------- EPOCH 32 ----------
+[INFO][root] loss = 3.4037046432495117
+[INFO][root] Accuracy(train) = 0.32245
+[INFO][root] Accuracy(test) = 0.3398
+[INFO][root] ---------- EPOCH 33 ----------
+[INFO][root] loss = 3.3355355262756348
+[INFO][root] Accuracy(train) = 0.32981666666666665
+[INFO][root] Accuracy(test) = 0.3468
+[INFO][root] ---------- EPOCH 34 ----------
+[INFO][root] loss = 3.2702887058258057
+[INFO][root] Accuracy(train) = 0.33618333333333333
+[INFO][root] Accuracy(test) = 0.3529
+[INFO][root] ---------- EPOCH 35 ----------
+[INFO][root] loss = 3.207826614379883
+[INFO][root] Accuracy(train) = 0.344
+[INFO][root] Accuracy(test) = 0.3612
+[INFO][root] ---------- EPOCH 36 ----------
+[INFO][root] loss = 3.1479833126068115
+[INFO][root] Accuracy(train) = 0.35175
+[INFO][root] Accuracy(test) = 0.3683
+[INFO][root] ---------- EPOCH 37 ----------
+[INFO][root] loss = 3.0906293392181396
+[INFO][root] Accuracy(train) = 0.35841666666666666
+[INFO][root] Accuracy(test) = 0.375
+[INFO][root] ---------- EPOCH 38 ----------
+[INFO][root] loss = 3.0355958938598633
+[INFO][root] Accuracy(train) = 0.36546666666666666
+[INFO][root] Accuracy(test) = 0.3838
+[INFO][root] ---------- EPOCH 39 ----------
+[INFO][root] loss = 2.9827513694763184
+[INFO][root] Accuracy(train) = 0.37188333333333334
+[INFO][root] Accuracy(test) = 0.3897
+[INFO][root] ---------- EPOCH 40 ----------
+[INFO][root] loss = 2.9319961071014404
+[INFO][root] Accuracy(train) = 0.3785833333333333
+[INFO][root] Accuracy(test) = 0.3961
+[INFO][root] ---------- EPOCH 41 ----------
+[INFO][root] loss = 2.8832149505615234
+[INFO][root] Accuracy(train) = 0.38525
+[INFO][root] Accuracy(test) = 0.4023
+[INFO][root] ---------- EPOCH 42 ----------
+[INFO][root] loss = 2.8363335132598877
+[INFO][root] Accuracy(train) = 0.39125
+[INFO][root] Accuracy(test) = 0.4073
+[INFO][root] ---------- EPOCH 43 ----------
+[INFO][root] loss = 2.7912514209747314
+[INFO][root] Accuracy(train) = 0.3977833333333333
+[INFO][root] Accuracy(test) = 0.4139
+[INFO][root] ---------- EPOCH 44 ----------
+[INFO][root] loss = 2.7478725910186768
+[INFO][root] Accuracy(train) = 0.40358333333333335
+[INFO][root] Accuracy(test) = 0.4199
+[INFO][root] ---------- EPOCH 45 ----------
+[INFO][root] loss = 2.7061049938201904
+[INFO][root] Accuracy(train) = 0.4088333333333333
+[INFO][root] Accuracy(test) = 0.4263
+[INFO][root] ---------- EPOCH 46 ----------
+[INFO][root] loss = 2.665875196456909
+[INFO][root] Accuracy(train) = 0.41475
+[INFO][root] Accuracy(test) = 0.4314
+[INFO][root] ---------- EPOCH 47 ----------
+[INFO][root] loss = 2.6270852088928223
+[INFO][root] Accuracy(train) = 0.42031666666666667
+[INFO][root] Accuracy(test) = 0.4361
+[INFO][root] ---------- EPOCH 48 ----------
+[INFO][root] loss = 2.5896642208099365
+[INFO][root] Accuracy(train) = 0.4259
+[INFO][root] Accuracy(test) = 0.4416
+[INFO][root] ---------- EPOCH 49 ----------
+[INFO][root] loss = 2.553546190261841
+[INFO][root] Accuracy(train) = 0.43151666666666666
+[INFO][root] Accuracy(test) = 0.4482
+[INFO][root] ---------- EPOCH 50 ----------
+[INFO][root] loss = 2.5186827182769775
+[INFO][root] Accuracy(train) = 0.437
+[INFO][root] Accuracy(test) = 0.4535
+[INFO][root] ---------- EPOCH 51 ----------
+[INFO][root] loss = 2.4850072860717773
+[INFO][root] Accuracy(train) = 0.44193333333333334
+[INFO][root] Accuracy(test) = 0.4586
+[INFO][root] ---------- EPOCH 52 ----------
+[INFO][root] loss = 2.4524474143981934
+[INFO][root] Accuracy(train) = 0.44658333333333333
+[INFO][root] Accuracy(test) = 0.4639
+[INFO][root] ---------- EPOCH 53 ----------
+[INFO][root] loss = 2.420950174331665
+[INFO][root] Accuracy(train) = 0.45163333333333333
+[INFO][root] Accuracy(test) = 0.4698
+[INFO][root] ---------- EPOCH 54 ----------
+[INFO][root] loss = 2.390470266342163
+[INFO][root] Accuracy(train) = 0.4562
+[INFO][root] Accuracy(test) = 0.4757
+[INFO][root] ---------- EPOCH 55 ----------
+[INFO][root] loss = 2.360952615737915
+[INFO][root] Accuracy(train) = 0.4605
+[INFO][root] Accuracy(test) = 0.4807
+[INFO][root] ---------- EPOCH 56 ----------
+[INFO][root] loss = 2.332368850708008
+[INFO][root] Accuracy(train) = 0.46541666666666665
+[INFO][root] Accuracy(test) = 0.4848
+[INFO][root] ---------- EPOCH 57 ----------
+[INFO][root] loss = 2.3046681880950928
+[INFO][root] Accuracy(train) = 0.4698333333333333
+[INFO][root] Accuracy(test) = 0.4893
+[INFO][root] ---------- EPOCH 58 ----------
+[INFO][root] loss = 2.2778000831604004
+[INFO][root] Accuracy(train) = 0.47413333333333335
+[INFO][root] Accuracy(test) = 0.493
+[INFO][root] ---------- EPOCH 59 ----------
+[INFO][root] loss = 2.2517430782318115
+[INFO][root] Accuracy(train) = 0.4787
+[INFO][root] Accuracy(test) = 0.4978
+[INFO][root] ---------- EPOCH 60 ----------
+[INFO][root] loss = 2.2264602184295654
+[INFO][root] Accuracy(train) = 0.4826
+[INFO][root] Accuracy(test) = 0.5014
+[INFO][root] ---------- EPOCH 61 ----------
+[INFO][root] loss = 2.201917886734009
+[INFO][root] Accuracy(train) = 0.48695
+[INFO][root] Accuracy(test) = 0.5069
+[INFO][root] ---------- EPOCH 62 ----------
+[INFO][root] loss = 2.1780803203582764
+[INFO][root] Accuracy(train) = 0.4910333333333333
+[INFO][root] Accuracy(test) = 0.5123
+[INFO][root] ---------- EPOCH 63 ----------
+[INFO][root] loss = 2.1549274921417236
+[INFO][root] Accuracy(train) = 0.49501666666666666
+[INFO][root] Accuracy(test) = 0.5152
+[INFO][root] ---------- EPOCH 64 ----------
+[INFO][root] loss = 2.1324217319488525
+[INFO][root] Accuracy(train) = 0.49905
+[INFO][root] Accuracy(test) = 0.518
+[INFO][root] ---------- EPOCH 65 ----------
+[INFO][root] loss = 2.11053204536438
+[INFO][root] Accuracy(train) = 0.5028833333333333
+[INFO][root] Accuracy(test) = 0.5233
+[INFO][root] ---------- EPOCH 66 ----------
+[INFO][root] loss = 2.089245557785034
+[INFO][root] Accuracy(train) = 0.5066833333333334
+[INFO][root] Accuracy(test) = 0.5261
+[INFO][root] ---------- EPOCH 67 ----------
+[INFO][root] loss = 2.068528890609741
+[INFO][root] Accuracy(train) = 0.5104166666666666
+[INFO][root] Accuracy(test) = 0.5297
+[INFO][root] ---------- EPOCH 68 ----------
+[INFO][root] loss = 2.048358678817749
+[INFO][root] Accuracy(train) = 0.5136333333333334
+[INFO][root] Accuracy(test) = 0.533
+[INFO][root] ---------- EPOCH 69 ----------
+[INFO][root] loss = 2.0287160873413086
+[INFO][root] Accuracy(train) = 0.5170833333333333
+[INFO][root] Accuracy(test) = 0.5352
+[INFO][root] ---------- EPOCH 70 ----------
+[INFO][root] loss = 2.0095789432525635
+[INFO][root] Accuracy(train) = 0.5203166666666666
+[INFO][root] Accuracy(test) = 0.5384
+[INFO][root] ---------- EPOCH 71 ----------
+[INFO][root] loss = 1.9909356832504272
+[INFO][root] Accuracy(train) = 0.5235666666666666
+[INFO][root] Accuracy(test) = 0.541
+[INFO][root] ---------- EPOCH 72 ----------
+[INFO][root] loss = 1.972769021987915
+[INFO][root] Accuracy(train) = 0.5266333333333333
+[INFO][root] Accuracy(test) = 0.5441
+[INFO][root] ---------- EPOCH 73 ----------
+[INFO][root] loss = 1.9550578594207764
+[INFO][root] Accuracy(train) = 0.5295666666666666
+[INFO][root] Accuracy(test) = 0.5469
+[INFO][root] ---------- EPOCH 74 ----------
+[INFO][root] loss = 1.9377868175506592
+[INFO][root] Accuracy(train) = 0.53265
+[INFO][root] Accuracy(test) = 0.5494
+[INFO][root] ---------- EPOCH 75 ----------
+[INFO][root] loss = 1.9209322929382324
+[INFO][root] Accuracy(train) = 0.5354833333333333
+[INFO][root] Accuracy(test) = 0.5517
+[INFO][root] ---------- EPOCH 76 ----------
+[INFO][root] loss = 1.9044795036315918
+[INFO][root] Accuracy(train) = 0.5385833333333333
+[INFO][root] Accuracy(test) = 0.5541
+[INFO][root] ---------- EPOCH 77 ----------
+[INFO][root] loss = 1.8884097337722778
+[INFO][root] Accuracy(train) = 0.5412833333333333
+[INFO][root] Accuracy(test) = 0.5564
+[INFO][root] ---------- EPOCH 78 ----------
+[INFO][root] loss = 1.872704029083252
+[INFO][root] Accuracy(train) = 0.5439833333333334
+[INFO][root] Accuracy(test) = 0.5594
+[INFO][root] ---------- EPOCH 79 ----------
+[INFO][root] loss = 1.85735285282135
+[INFO][root] Accuracy(train) = 0.54705
+[INFO][root] Accuracy(test) = 0.5629
+[INFO][root] ---------- EPOCH 80 ----------
+[INFO][root] loss = 1.8423489332199097
+[INFO][root] Accuracy(train) = 0.5497333333333333
+[INFO][root] Accuracy(test) = 0.5653
+[INFO][root] ---------- EPOCH 81 ----------
+[INFO][root] loss = 1.8276780843734741
+[INFO][root] Accuracy(train) = 0.5525666666666667
+[INFO][root] Accuracy(test) = 0.5678
+[INFO][root] ---------- EPOCH 82 ----------
+[INFO][root] loss = 1.8133316040039062
+[INFO][root] Accuracy(train) = 0.5552166666666667
+[INFO][root] Accuracy(test) = 0.5712
+[INFO][root] ---------- EPOCH 83 ----------
+[INFO][root] loss = 1.799302339553833
+[INFO][root] Accuracy(train) = 0.5579333333333333
+[INFO][root] Accuracy(test) = 0.5738
+[INFO][root] ---------- EPOCH 84 ----------
+[INFO][root] loss = 1.7855844497680664
+[INFO][root] Accuracy(train) = 0.56105
+[INFO][root] Accuracy(test) = 0.5762
+[INFO][root] ---------- EPOCH 85 ----------
+[INFO][root] loss = 1.7721598148345947
+[INFO][root] Accuracy(train) = 0.5640333333333334
+[INFO][root] Accuracy(test) = 0.5785
+[INFO][root] ---------- EPOCH 86 ----------
+[INFO][root] loss = 1.7590205669403076
+[INFO][root] Accuracy(train) = 0.5665666666666667
+[INFO][root] Accuracy(test) = 0.5807
+[INFO][root] ---------- EPOCH 87 ----------
+[INFO][root] loss = 1.7461516857147217
+[INFO][root] Accuracy(train) = 0.5692
+[INFO][root] Accuracy(test) = 0.5824
+[INFO][root] ---------- EPOCH 88 ----------
+[INFO][root] loss = 1.7335456609725952
+[INFO][root] Accuracy(train) = 0.57185
+[INFO][root] Accuracy(test) = 0.5845
+[INFO][root] ---------- EPOCH 89 ----------
+[INFO][root] loss = 1.7211910486221313
+[INFO][root] Accuracy(train) = 0.5743333333333334
+[INFO][root] Accuracy(test) = 0.5869
+[INFO][root] ---------- EPOCH 90 ----------
+[INFO][root] loss = 1.7090773582458496
+[INFO][root] Accuracy(train) = 0.5771
+[INFO][root] Accuracy(test) = 0.5888
+[INFO][root] ---------- EPOCH 91 ----------
+[INFO][root] loss = 1.697204828262329
+[INFO][root] Accuracy(train) = 0.5793666666666667
+[INFO][root] Accuracy(test) = 0.59
+[INFO][root] ---------- EPOCH 92 ----------
+[INFO][root] loss = 1.6855695247650146
+[INFO][root] Accuracy(train) = 0.5815666666666667
+[INFO][root] Accuracy(test) = 0.5919
+[INFO][root] ---------- EPOCH 93 ----------
+[INFO][root] loss = 1.674156904220581
+[INFO][root] Accuracy(train) = 0.5835333333333333
+[INFO][root] Accuracy(test) = 0.5938
+[INFO][root] ---------- EPOCH 94 ----------
+[INFO][root] loss = 1.6629563570022583
+[INFO][root] Accuracy(train) = 0.5858333333333333
+[INFO][root] Accuracy(test) = 0.596
+[INFO][root] ---------- EPOCH 95 ----------
+[INFO][root] loss = 1.6519663333892822
+[INFO][root] Accuracy(train) = 0.58775
+[INFO][root] Accuracy(test) = 0.5987
+[INFO][root] ---------- EPOCH 96 ----------
+[INFO][root] loss = 1.6411783695220947
+[INFO][root] Accuracy(train) = 0.5898666666666667
+[INFO][root] Accuracy(test) = 0.6004
+[INFO][root] ---------- EPOCH 97 ----------
+[INFO][root] loss = 1.6305873394012451
+[INFO][root] Accuracy(train) = 0.5920166666666666
+[INFO][root] Accuracy(test) = 0.6029
+[INFO][root] ---------- EPOCH 98 ----------
+[INFO][root] loss = 1.6201919317245483
+[INFO][root] Accuracy(train) = 0.5942333333333333
+[INFO][root] Accuracy(test) = 0.6043
+[INFO][root] ---------- EPOCH 99 ----------
+[INFO][root] loss = 1.6099835634231567
+[INFO][root] Accuracy(train) = 0.5961666666666666
+[INFO][root] Accuracy(test) = 0.6062
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=60000, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] loss = 10.240617752075195
+[INFO][root] Accuracy(train) = 0.09661666666666667
+[INFO][root] Accuracy(test) = 0.0963
+[INFO][root] ---------- EPOCH 1 ----------
+[INFO][root] loss = 8.854353904724121
+[INFO][root] Accuracy(train) = 0.11358333333333333
+[INFO][root] Accuracy(test) = 0.1147
+[INFO][root] ---------- EPOCH 2 ----------
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=60000, n_examples=60000
+[INFO][root] ---------- EPOCH 0 ----------
+[INFO][root] loss = 9.871487617492676
+[INFO][root] Accuracy(train) = 0.09298333333333333
+[INFO][root] Accuracy(test) = 0.0918
+[INFO][root] ---------- EPOCH 1 ----------
+[INFO][root] loss = 8.392107963562012
+[INFO][root] Accuracy(train) = 0.1005
+[INFO][root] Accuracy(test) = 0.0996
+[INFO][root] ---------- EPOCH 2 ----------
+[INFO][root] loss = 7.540071964263916
+[INFO][root] Accuracy(train) = 0.10726666666666666
+[INFO][root] Accuracy(test) = 0.1063
+[INFO][root] ---------- EPOCH 3 ----------
+[INFO][root] loss = 6.995448112487793
+[INFO][root] Accuracy(train) = 0.11503333333333333
+[INFO][root] Accuracy(test) = 0.1142
+[INFO][root] ---------- EPOCH 4 ----------
+[INFO][root] loss = 6.595330238342285
+[INFO][root] Accuracy(train) = 0.12168333333333334
+[INFO][root] Accuracy(test) = 0.1226
+[INFO][root] ---------- EPOCH 5 ----------
+[INFO][root] loss = 6.2728047370910645
+[INFO][root] Accuracy(train) = 0.12788333333333332
+[INFO][root] Accuracy(test) = 0.1294
+[INFO][root] ---------- EPOCH 6 ----------
+[INFO][root] loss = 5.998379707336426
+[INFO][root] Accuracy(train) = 0.13431666666666667
+[INFO][root] Accuracy(test) = 0.137
+[INFO][root] ---------- EPOCH 7 ----------
+[INFO][root] loss = 5.757045269012451
+[INFO][root] Accuracy(train) = 0.14056666666666667
+[INFO][root] Accuracy(test) = 0.1423
+[INFO][root] ---------- EPOCH 8 ----------
+[INFO][root] loss = 5.5398783683776855
+[INFO][root] Accuracy(train) = 0.14736666666666667
+[INFO][root] Accuracy(test) = 0.149
+[INFO][root] ---------- EPOCH 9 ----------
+[INFO][root] loss = 5.341654300689697
+[INFO][root] Accuracy(train) = 0.15445
+[INFO][root] Accuracy(test) = 0.1557
+[INFO][root] ---------- EPOCH 10 ----------
+[INFO][root] loss = 5.158987998962402
+[INFO][root] Accuracy(train) = 0.16168333333333335
+[INFO][root] Accuracy(test) = 0.1625
+[INFO][root] ---------- EPOCH 11 ----------
+[INFO][root] loss = 4.989445686340332
+[INFO][root] Accuracy(train) = 0.16886666666666666
+[INFO][root] Accuracy(test) = 0.1703
+[INFO][root] ---------- EPOCH 12 ----------
+[INFO][root] loss = 4.8313093185424805
+[INFO][root] Accuracy(train) = 0.17611666666666667
+[INFO][root] Accuracy(test) = 0.1768
+[INFO][root] ---------- EPOCH 13 ----------
+[INFO][root] loss = 4.683178901672363
+[INFO][root] Accuracy(train) = 0.18405
+[INFO][root] Accuracy(test) = 0.184
+[INFO][root] ---------- EPOCH 14 ----------
+[INFO][root] loss = 4.5439887046813965
+[INFO][root] Accuracy(train) = 0.19216666666666668
+[INFO][root] Accuracy(test) = 0.1926
+[INFO][root] ---------- EPOCH 15 ----------
+[INFO][root] loss = 4.412868499755859
+[INFO][root] Accuracy(train) = 0.20056666666666667
+[INFO][root] Accuracy(test) = 0.1998
+[INFO][root] ---------- EPOCH 16 ----------
+[INFO][root] loss = 4.289031028747559
+[INFO][root] Accuracy(train) = 0.20948333333333333
+[INFO][root] Accuracy(test) = 0.2083
+[INFO][root] ---------- EPOCH 17 ----------
+[INFO][root] loss = 4.17193078994751
+[INFO][root] Accuracy(train) = 0.21761666666666668
+[INFO][root] Accuracy(test) = 0.2177
+[INFO][root] ---------- EPOCH 18 ----------
+[INFO][root] loss = 4.061164855957031
+[INFO][root] Accuracy(train) = 0.2263
+[INFO][root] Accuracy(test) = 0.2278
+[INFO][root] ---------- EPOCH 19 ----------
+[INFO][root] loss = 3.956343650817871
+[INFO][root] Accuracy(train) = 0.23503333333333334
+[INFO][root] Accuracy(test) = 0.2376
+[INFO][root] ---------- EPOCH 20 ----------
+[INFO][root] loss = 3.8570806980133057
+[INFO][root] Accuracy(train) = 0.24423333333333333
+[INFO][root] Accuracy(test) = 0.2481
+[INFO][root] ---------- EPOCH 21 ----------
+[INFO][root] loss = 3.763031482696533
+[INFO][root] Accuracy(train) = 0.25285
+[INFO][root] Accuracy(test) = 0.2575
+[INFO][root] ---------- EPOCH 22 ----------
+[INFO][root] loss = 3.6739368438720703
+[INFO][root] Accuracy(train) = 0.2616833333333333
+[INFO][root] Accuracy(test) = 0.2659
+[INFO][root] ---------- EPOCH 23 ----------
+[INFO][root] loss = 3.589491605758667
+[INFO][root] Accuracy(train) = 0.26986666666666664
+[INFO][root] Accuracy(test) = 0.2745
+[INFO][root] ---------- EPOCH 24 ----------
+[INFO][root] loss = 3.5093796253204346
+[INFO][root] Accuracy(train) = 0.27805
+[INFO][root] Accuracy(test) = 0.2833
+[INFO][root] ---------- EPOCH 25 ----------
+[INFO][root] loss = 3.43328857421875
+[INFO][root] Accuracy(train) = 0.2867166666666667
+[INFO][root] Accuracy(test) = 0.2913
+[INFO][root] ---------- EPOCH 26 ----------
+[INFO][root] loss = 3.3609890937805176
+[INFO][root] Accuracy(train) = 0.29563333333333336
+[INFO][root] Accuracy(test) = 0.3008
+[INFO][root] ---------- EPOCH 27 ----------
+[INFO][root] loss = 3.2922301292419434
+[INFO][root] Accuracy(train) = 0.3041333333333333
+[INFO][root] Accuracy(test) = 0.3093
+[INFO][root] ---------- EPOCH 28 ----------
+[INFO][root] loss = 3.226773738861084
+[INFO][root] Accuracy(train) = 0.31243333333333334
+[INFO][root] Accuracy(test) = 0.32
+[INFO][root] ---------- EPOCH 29 ----------
+[INFO][root] loss = 3.1644186973571777
+[INFO][root] Accuracy(train) = 0.32033333333333336
+[INFO][root] Accuracy(test) = 0.329
+[INFO][root] ---------- EPOCH 30 ----------
+[INFO][root] loss = 3.1049656867980957
+[INFO][root] Accuracy(train) = 0.32863333333333333
+[INFO][root] Accuracy(test) = 0.336
+[INFO][root] ---------- EPOCH 31 ----------
+[INFO][root] loss = 3.04824161529541
+[INFO][root] Accuracy(train) = 0.3370666666666667
+[INFO][root] Accuracy(test) = 0.3448
+[INFO][root] ---------- EPOCH 32 ----------
+[INFO][root] loss = 2.9940881729125977
+[INFO][root] Accuracy(train) = 0.3456
+[INFO][root] Accuracy(test) = 0.3521
+[INFO][root] ---------- EPOCH 33 ----------
+[INFO][root] loss = 2.9423458576202393
+[INFO][root] Accuracy(train) = 0.3536666666666667
+[INFO][root] Accuracy(test) = 0.359
+[INFO][root] ---------- EPOCH 34 ----------
+[INFO][root] loss = 2.892813205718994
+[INFO][root] Accuracy(train) = 0.36091666666666666
+[INFO][root] Accuracy(test) = 0.3673
+[INFO][root] ---------- EPOCH 35 ----------
+[INFO][root] loss = 2.8453681468963623
+[INFO][root] Accuracy(train) = 0.36773333333333336
+[INFO][root] Accuracy(test) = 0.3737
+[INFO][root] ---------- EPOCH 36 ----------
+[INFO][root] loss = 2.7998898029327393
+[INFO][root] Accuracy(train) = 0.3748
+[INFO][root] Accuracy(test) = 0.381
+[INFO][root] ---------- EPOCH 37 ----------
+[INFO][root] loss = 2.7562458515167236
+[INFO][root] Accuracy(train) = 0.3816333333333333
+[INFO][root] Accuracy(test) = 0.3868
+[INFO][root] ---------- EPOCH 38 ----------
+[INFO][root] loss = 2.7143609523773193
+[INFO][root] Accuracy(train) = 0.38803333333333334
+[INFO][root] Accuracy(test) = 0.3925
+[INFO][root] ---------- EPOCH 39 ----------
+[INFO][root] loss = 2.6741139888763428
+[INFO][root] Accuracy(train) = 0.39393333333333336
+[INFO][root] Accuracy(test) = 0.4002
+[INFO][root] ---------- EPOCH 40 ----------
+[INFO][root] loss = 2.635417938232422
+[INFO][root] Accuracy(train) = 0.3999666666666667
+[INFO][root] Accuracy(test) = 0.4063
+[INFO][root] ---------- EPOCH 41 ----------
+[INFO][root] loss = 2.598162889480591
+[INFO][root] Accuracy(train) = 0.40575
+[INFO][root] Accuracy(test) = 0.4125
+[INFO][root] ---------- EPOCH 42 ----------
+[INFO][root] loss = 2.562283515930176
+[INFO][root] Accuracy(train) = 0.411
+[INFO][root] Accuracy(test) = 0.4181
+[INFO][root] ---------- EPOCH 43 ----------
+[INFO][root] loss = 2.527714967727661
+[INFO][root] Accuracy(train) = 0.417
+[INFO][root] Accuracy(test) = 0.4245
+[INFO][root] ---------- EPOCH 44 ----------
+[INFO][root] loss = 2.494354486465454
+[INFO][root] Accuracy(train) = 0.4227166666666667
+[INFO][root] Accuracy(test) = 0.4308
+[INFO][root] ---------- EPOCH 45 ----------
+[INFO][root] loss = 2.46213698387146
+[INFO][root] Accuracy(train) = 0.4280833333333333
+[INFO][root] Accuracy(test) = 0.4344
+[INFO][root] ---------- EPOCH 46 ----------
+[INFO][root] loss = 2.431033134460449
+[INFO][root] Accuracy(train) = 0.43305
+[INFO][root] Accuracy(test) = 0.44
+[INFO][root] ---------- EPOCH 47 ----------
+[INFO][root] loss = 2.4009828567504883
+[INFO][root] Accuracy(train) = 0.4379166666666667
+[INFO][root] Accuracy(test) = 0.4454
+[INFO][root] ---------- EPOCH 48 ----------
+[INFO][root] loss = 2.371910333633423
+[INFO][root] Accuracy(train) = 0.4433
+[INFO][root] Accuracy(test) = 0.4493
+[INFO][root] ---------- EPOCH 49 ----------
+[INFO][root] loss = 2.343780994415283
+[INFO][root] Accuracy(train) = 0.4484166666666667
+[INFO][root] Accuracy(test) = 0.4538
+[INFO][root] ---------- EPOCH 50 ----------
+[INFO][root] loss = 2.316555976867676
+[INFO][root] Accuracy(train) = 0.45315
+[INFO][root] Accuracy(test) = 0.4581
+[INFO][root] ---------- EPOCH 51 ----------
+[INFO][root] loss = 2.290187120437622
+[INFO][root] Accuracy(train) = 0.45755
+[INFO][root] Accuracy(test) = 0.4631
+[INFO][root] ---------- EPOCH 52 ----------
+[INFO][root] loss = 2.264651298522949
+[INFO][root] Accuracy(train) = 0.46185
+[INFO][root] Accuracy(test) = 0.4677
+[INFO][root] ---------- EPOCH 53 ----------
+[INFO][root] loss = 2.239901065826416
+[INFO][root] Accuracy(train) = 0.46618333333333334
+[INFO][root] Accuracy(test) = 0.4722
+[INFO][root] ---------- EPOCH 54 ----------
+[INFO][root] loss = 2.2158942222595215
+[INFO][root] Accuracy(train) = 0.4704333333333333
+[INFO][root] Accuracy(test) = 0.4759
+[INFO][root] ---------- EPOCH 55 ----------
+[INFO][root] loss = 2.19260835647583
+[INFO][root] Accuracy(train) = 0.4744333333333333
+[INFO][root] Accuracy(test) = 0.4788
+[INFO][root] ---------- EPOCH 56 ----------
+[INFO][root] loss = 2.170006036758423
+[INFO][root] Accuracy(train) = 0.4785
+[INFO][root] Accuracy(test) = 0.4822
+[INFO][root] ---------- EPOCH 57 ----------
+[INFO][root] loss = 2.148073196411133
+[INFO][root] Accuracy(train) = 0.48215
+[INFO][root] Accuracy(test) = 0.4865
+[INFO][root] ---------- EPOCH 58 ----------
+[INFO][root] loss = 2.1267826557159424
+[INFO][root] Accuracy(train) = 0.4865833333333333
+[INFO][root] Accuracy(test) = 0.4899
+[INFO][root] ---------- EPOCH 59 ----------
+[INFO][root] loss = 2.106091022491455
+[INFO][root] Accuracy(train) = 0.48995
+[INFO][root] Accuracy(test) = 0.4937
+[INFO][root] ---------- EPOCH 60 ----------
+[INFO][root] loss = 2.0859806537628174
+[INFO][root] Accuracy(train) = 0.4931833333333333
+[INFO][root] Accuracy(test) = 0.4981
+[INFO][root] ---------- EPOCH 61 ----------
+[INFO][root] loss = 2.066420555114746
+[INFO][root] Accuracy(train) = 0.49683333333333335
+[INFO][root] Accuracy(test) = 0.5034
+[INFO][root] ---------- EPOCH 62 ----------
+[INFO][root] loss = 2.047379493713379
+[INFO][root] Accuracy(train) = 0.49985
+[INFO][root] Accuracy(test) = 0.5065
+[INFO][root] ---------- EPOCH 63 ----------
+[INFO][root] loss = 2.0288336277008057
+[INFO][root] Accuracy(train) = 0.5034666666666666
+[INFO][root] Accuracy(test) = 0.5093
+[INFO][root] ---------- EPOCH 64 ----------
+[INFO][root] loss = 2.010772466659546
+[INFO][root] Accuracy(train) = 0.5070333333333333
+[INFO][root] Accuracy(test) = 0.5134
+[INFO][root] ---------- EPOCH 65 ----------
+[INFO][root] loss = 1.993165135383606
+[INFO][root] Accuracy(train) = 0.5101833333333333
+[INFO][root] Accuracy(test) = 0.5164
+[INFO][root] ---------- EPOCH 66 ----------
+[INFO][root] loss = 1.9759992361068726
+[INFO][root] Accuracy(train) = 0.51365
+[INFO][root] Accuracy(test) = 0.5205
+[INFO][root] ---------- EPOCH 67 ----------
+[INFO][root] loss = 1.9592560529708862
+[INFO][root] Accuracy(train) = 0.5166666666666667
+[INFO][root] Accuracy(test) = 0.5243
+[INFO][root] ---------- EPOCH 68 ----------
+[INFO][root] loss = 1.9429056644439697
+[INFO][root] Accuracy(train) = 0.51945
+[INFO][root] Accuracy(test) = 0.5266
+[INFO][root] ---------- EPOCH 69 ----------
+[INFO][root] loss = 1.9269484281539917
+[INFO][root] Accuracy(train) = 0.5223666666666666
+[INFO][root] Accuracy(test) = 0.5301
+[INFO][root] ---------- EPOCH 70 ----------
+[INFO][root] loss = 1.9113750457763672
+[INFO][root] Accuracy(train) = 0.5255666666666666
+[INFO][root] Accuracy(test) = 0.532
+[INFO][root] ---------- EPOCH 71 ----------
+[INFO][root] loss = 1.89616858959198
+[INFO][root] Accuracy(train) = 0.52885
+[INFO][root] Accuracy(test) = 0.5342
+[INFO][root] ---------- EPOCH 72 ----------
+[INFO][root] loss = 1.881314992904663
+[INFO][root] Accuracy(train) = 0.5317
+[INFO][root] Accuracy(test) = 0.5367
+[INFO][root] ---------- EPOCH 73 ----------
+[INFO][root] loss = 1.8667950630187988
+[INFO][root] Accuracy(train) = 0.5346833333333333
+[INFO][root] Accuracy(test) = 0.5395
+[INFO][root] ---------- EPOCH 74 ----------
+[INFO][root] loss = 1.8526078462600708
+[INFO][root] Accuracy(train) = 0.5377166666666666
+[INFO][root] Accuracy(test) = 0.5424
+[INFO][root] ---------- EPOCH 75 ----------
+[INFO][root] loss = 1.838738203048706
+[INFO][root] Accuracy(train) = 0.5407666666666666
+[INFO][root] Accuracy(test) = 0.5455
+[INFO][root] ---------- EPOCH 76 ----------
+[INFO][root] loss = 1.8251627683639526
+[INFO][root] Accuracy(train) = 0.5436166666666666
+[INFO][root] Accuracy(test) = 0.5479
+[INFO][root] ---------- EPOCH 77 ----------
+[INFO][root] loss = 1.811885118484497
+[INFO][root] Accuracy(train) = 0.5463833333333333
+[INFO][root] Accuracy(test) = 0.5503
+[INFO][root] ---------- EPOCH 78 ----------
+[INFO][root] loss = 1.7988919019699097
+[INFO][root] Accuracy(train) = 0.5490833333333334
+[INFO][root] Accuracy(test) = 0.5527
+[INFO][root] ---------- EPOCH 79 ----------
+[INFO][root] loss = 1.7861710786819458
+[INFO][root] Accuracy(train) = 0.5516
+[INFO][root] Accuracy(test) = 0.5549
+[INFO][root] ---------- EPOCH 80 ----------
+[INFO][root] loss = 1.7737189531326294
+[INFO][root] Accuracy(train) = 0.5540666666666667
+[INFO][root] Accuracy(test) = 0.5588
+[INFO][root] ---------- EPOCH 81 ----------
+[INFO][root] loss = 1.7615283727645874
+[INFO][root] Accuracy(train) = 0.5565666666666667
+[INFO][root] Accuracy(test) = 0.5619
+[INFO][root] ---------- EPOCH 82 ----------
+[INFO][root] loss = 1.7495903968811035
+[INFO][root] Accuracy(train) = 0.5585166666666667
+[INFO][root] Accuracy(test) = 0.565
+[INFO][root] ---------- EPOCH 83 ----------
+[INFO][root] loss = 1.7378884553909302
+[INFO][root] Accuracy(train) = 0.5608333333333333
+[INFO][root] Accuracy(test) = 0.5676
+[INFO][root] ---------- EPOCH 84 ----------
+[INFO][root] loss = 1.7264187335968018
+[INFO][root] Accuracy(train) = 0.5630833333333334
+[INFO][root] Accuracy(test) = 0.5698
+[INFO][root] ---------- EPOCH 85 ----------
+[INFO][root] loss = 1.7151741981506348
+[INFO][root] Accuracy(train) = 0.56565
+[INFO][root] Accuracy(test) = 0.5712
+[INFO][root] ---------- EPOCH 86 ----------
+[INFO][root] loss = 1.7041417360305786
+[INFO][root] Accuracy(train) = 0.5680666666666667
+[INFO][root] Accuracy(test) = 0.573
+[INFO][root] ---------- EPOCH 87 ----------
+[INFO][root] loss = 1.693314552307129
+[INFO][root] Accuracy(train) = 0.57025
+[INFO][root] Accuracy(test) = 0.5761
+[INFO][root] ---------- EPOCH 88 ----------
+[INFO][root] loss = 1.682687759399414
+[INFO][root] Accuracy(train) = 0.5724
+[INFO][root] Accuracy(test) = 0.5781
+[INFO][root] ---------- EPOCH 89 ----------
+[INFO][root] loss = 1.6722596883773804
+[INFO][root] Accuracy(train) = 0.5743833333333334
+[INFO][root] Accuracy(test) = 0.5798
+[INFO][root] ---------- EPOCH 90 ----------
+[INFO][root] loss = 1.6620255708694458
+[INFO][root] Accuracy(train) = 0.57645
+[INFO][root] Accuracy(test) = 0.5823
+[INFO][root] ---------- EPOCH 91 ----------
+[INFO][root] loss = 1.6519783735275269
+[INFO][root] Accuracy(train) = 0.5786666666666667
+[INFO][root] Accuracy(test) = 0.5839
+[INFO][root] ---------- EPOCH 92 ----------
+[INFO][root] loss = 1.642112374305725
+[INFO][root] Accuracy(train) = 0.58095
+[INFO][root] Accuracy(test) = 0.5858
+[INFO][root] ---------- EPOCH 93 ----------
+[INFO][root] loss = 1.6324286460876465
+[INFO][root] Accuracy(train) = 0.5832333333333334
+[INFO][root] Accuracy(test) = 0.5882
+[INFO][root] ---------- EPOCH 94 ----------
+[INFO][root] loss = 1.6229184865951538
+[INFO][root] Accuracy(train) = 0.5849
+[INFO][root] Accuracy(test) = 0.5901
+[INFO][root] ---------- EPOCH 95 ----------
+[INFO][root] loss = 1.6135743856430054
+[INFO][root] Accuracy(train) = 0.5867166666666667
+[INFO][root] Accuracy(test) = 0.5919
+[INFO][root] ---------- EPOCH 96 ----------
+[INFO][root] loss = 1.6043959856033325
+[INFO][root] Accuracy(train) = 0.5887833333333333
+[INFO][root] Accuracy(test) = 0.5943
+[INFO][root] ---------- EPOCH 97 ----------
+[INFO][root] loss = 1.5953757762908936
+[INFO][root] Accuracy(train) = 0.5904333333333334
+[INFO][root] Accuracy(test) = 0.5969
+[INFO][root] ---------- EPOCH 98 ----------
+[INFO][root] loss = 1.5865060091018677
+[INFO][root] Accuracy(train) = 0.5920166666666666
+[INFO][root] Accuracy(test) = 0.5985
+[INFO][root] ---------- EPOCH 99 ----------
+[INFO][root] loss = 1.5777846574783325
+[INFO][root] Accuracy(train) = 0.5941166666666666
+[INFO][root] Accuracy(test) = 0.6002
+[INFO][root] X_train shape: torch.Size([60000, 784])
+[INFO][root] X_test shape: torch.Size([10000, 784])
+[INFO][root] --------------- training set size = 250 ---------------
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=250, n_examples=250
+[INFO][root] Early stop at epoch 211
+[INFO][root] loss = 0.10174571722745895
+[INFO][root] Accuracy(train) = 0.988
+[INFO][root] Accuracy(test) = 0.5393
+[INFO][root] --------------- training set size = 500 ---------------
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=500, n_examples=500
+[INFO][root] Early stop at epoch 257
+[INFO][root] loss = 0.15237468481063843
+[INFO][root] Accuracy(train) = 0.978
+[INFO][root] Accuracy(test) = 0.6519
+[INFO][root] --------------- training set size = 750 ---------------
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=750, n_examples=750
+[INFO][root] Early stop at epoch 353
+[INFO][root] loss = 0.2675284743309021
+[INFO][root] Accuracy(train) = 0.944
+[INFO][root] Accuracy(test) = 0.6972
+[INFO][root] --------------- training set size = 1000 ---------------
+[INFO][root] selec implementation: torch.autograd
+[INFO][root] batch_size=1000, n_examples=1000

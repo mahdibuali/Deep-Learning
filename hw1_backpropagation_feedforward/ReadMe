@@ -1,0 +1,16 @@
+# Example Command
+
+    python hw1_training.py data
+    python hw1_learning_curves.py data
+
+# CS69000-DPL - HW1
+
+Basic neural network with ReLU activations and cross-entropy loss, running on MNIST.
+
+## How to use
+
+ 1. Download data from http://yann.lecun.com/exdb/mnist/. 
+ 
+ 2. Put the four .gz files in the folder ./data
+ 
+ 3. Pass the folder as an argument to the demo.py
